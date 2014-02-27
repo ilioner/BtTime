@@ -28,6 +28,8 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
     self.title = @"Setting";
+    UIBarButtonItem *barButtonItem = [[UIBarButtonItem alloc] initWithTitle:@"分享" style:UIBarButtonItemStyleBordered target:self action:@selector(shareMsg:)];
+    self.navigationItem.rightBarButtonItem = barButtonItem;
 }
 
 - (void)didReceiveMemoryWarning
@@ -36,4 +38,9 @@
     // Dispose of any resources that can be recreated.
 }
 
+
+- (void)shareMsg:(id)sender
+{
+    
+}
 @end

@@ -53,6 +53,7 @@
 		378761C418BC6E2B0009E9FD /* BTTIMECoin.m in Sources */ = {isa = PBXBuildFile; fileRef = 378761C318BC6E2B0009E9FD /* BTTIMECoin.m */; };
 		378761C718BC70FE0009E9FD /* BTTIMECell.m in Sources */ = {isa = PBXBuildFile; fileRef = 378761C618BC70FE0009E9FD /* BTTIMECell.m */; };
 		378761C918BC710F0009E9FD /* BTTIMECell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 378761C818BC710F0009E9FD /* BTTIMECell.xib */; };
+		37A7AB4E18BEDE4B007A6AAF /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37A7AB4D18BEDE4B007A6AAF /* CoreData.framework */; };
 		37B98ADB18BDEDDA00C5F84A /* BTTIMESettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 37B98AD918BDEDDA00C5F84A /* BTTIMESettingViewController.m */; };
 		37B98ADC18BDEDDA00C5F84A /* BTTIMESettingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 37B98ADA18BDEDDA00C5F84A /* BTTIMESettingViewController.xib */; };
 		37B98AE218BDF3BE00C5F84A /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 37B98AE118BDF3BE00C5F84A /* Default.png */; };
@@ -134,6 +135,7 @@
 		378761C518BC70FE0009E9FD /* BTTIMECell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTTIMECell.h; sourceTree = "<group>"; };
 		378761C618BC70FE0009E9FD /* BTTIMECell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTTIMECell.m; sourceTree = "<group>"; };
 		378761C818BC710F0009E9FD /* BTTIMECell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BTTIMECell.xib; sourceTree = "<group>"; };
+		37A7AB4D18BEDE4B007A6AAF /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		37B98AD818BDEDDA00C5F84A /* BTTIMESettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTTIMESettingViewController.h; sourceTree = "<group>"; };
 		37B98AD918BDEDDA00C5F84A /* BTTIMESettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTTIMESettingViewController.m; sourceTree = "<group>"; };
 		37B98ADA18BDEDDA00C5F84A /* BTTIMESettingViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BTTIMESettingViewController.xib; sourceTree = "<group>"; };
@@ -146,6 +148,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				37A7AB4E18BEDE4B007A6AAF /* CoreData.framework in Frameworks */,
 				378761B718BC447B0009E9FD /* SystemConfiguration.framework in Frameworks */,
 				378761B518BC446A0009E9FD /* CFNetwork.framework in Frameworks */,
 				378761B318BC44600009E9FD /* Security.framework in Frameworks */,
@@ -216,6 +219,7 @@
 		3787615F18BC42C10009E9FD /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				37A7AB4D18BEDE4B007A6AAF /* CoreData.framework */,
 				378761B618BC447B0009E9FD /* SystemConfiguration.framework */,
 				378761B418BC446A0009E9FD /* CFNetwork.framework */,
 				378761B218BC44600009E9FD /* Security.framework */,
